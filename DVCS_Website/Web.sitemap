@@ -8,6 +8,7 @@
     <siteMapNode url="" title="Pages" description="">
       
       <siteMapNode url="~/Pages/Info.aspx" title="Page 1"  description="" />
+      <siteMapNode url="~/Pages/More.aspx" title="Page 1"  description="" />
     </siteMapNode>
 
     <siteMapNode url="~/Contact.aspx" title="Contact"  description="default contact page" />
