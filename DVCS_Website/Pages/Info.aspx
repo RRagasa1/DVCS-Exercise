@@ -1,16 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Info.aspx.cs" Inherits="Pages_Info" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" 
+    CodeFile="Info.aspx.cs" Inherits="Pages_Info" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    <p>Hello</p>
-    </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    <h2>First Page</h2>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="FooterContent" Runat="Server">
+    <p> Sample</p>
+</asp:Content>

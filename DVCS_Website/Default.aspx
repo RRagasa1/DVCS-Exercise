@@ -39,3 +39,6 @@
         </div>
     </div>
 </asp:Content>
+<asp:Content ID="PageFooter" runat="server" ContentPlaceHolderID="FooterContent">
+       <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+</asp:Content>
